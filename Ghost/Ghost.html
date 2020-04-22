@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GHOST IN THE SHELL</title>
+<link rel="stylesheet" href="Assets/Ghost.css">
+<body></body>
+<div class="Backnoise">
+    <img src="Assets/Images/BackScreen2.gif">
+</div>
+<div class="Rotation">
+    <img src="Assets/Images/Rotation2.gif">
+</div>
+<div class="Ghost">
+    <button class="Word2" style="background-image: url('Assets/Images/Words2.svg')"></button>
+    <div class="Triangle">
+        <svg id="Triangle" data-name="Triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 804.79448 696.97247"><defs></defs><polygon class="cls-1" points="402.397 0 0 696.972 804.794 696.972 402.397 0"/></svg>
+    </div>
+    <div class="Word1">
+        <img src="Assets/Images/Words1.svg">
+    </div>
+</div>
+<div class="Backdot">
+    <img src="Assets/Images/BackDot.svg">
+</div>
+<div class="Narrative">
+    <div class="blk1"></div>
+    <div class="blk2"></div>
+    <div class="blk3"></div>
+    <div class="blk4"></div>
+    <div class="img1">
+        <div class=G1>
+            <img src="Assets/Images/Ghost1-1.jpg">
+        </div>
+        <div class=G2>
+            <img src="Assets/Images/Ghost2-1.jpg">
+        </div>
+        <div class=G3>
+            <img src="Assets/Images/Ghost3-1.jpg">
+        </div>
+        <div class=G4>
+            <img src="Assets/Images/Ghost4-1.jpg">
+        </div>
+    </div>
+    <div class="img2">
+        <div class=G1>
+            <img src="Assets/Images/Ghost1-2.jpg">
+        </div>
+        <div class=G2>
+            <img src="Assets/Images/Ghost2-2.jpg">
+        </div>
+        <div class=G3>
+            <img src="Assets/Images/Ghost3-2.jpg">
+        </div>
+        <div class=G4>
+            <img src="Assets/Images/Ghost4-2.jpg">
+        </div>
+    </div>
+    <div class="img3">
+        <div class=G1>
+            <img src="Assets/Images/Ghost1-3.jpg">
+        </div>
+        <div class=G2>
+            <img src="Assets/Images/Ghost2-3.jpg">
+        </div>
+        <div class=G3>
+            <img src="Assets/Images/Ghost3-3.jpg">
+        </div>
+        <div class=G4>
+            <img src="Assets/Images/Ghost4-3.jpg">
+        </div>
+    </div>
+    <div class="img4">
+        <div class=G1>
+            <img src="Assets/Images/Ghost1-4.jpg">
+        </div>
+        <div class=G2>
+            <img src="Assets/Images/Ghost2-4.jpg">
+        </div>
+        <div class=G3>
+            <img src="Assets/Images/Ghost3-4.jpg">
+        </div>
+        <div class=G4>
+            <img src="Assets/Images/Ghost4-4.jpg">
+        </div>
+    </div>
+</div>
+</html>
+<script>
+    const button = document.querySelector(".Word2");
+    const target = document.querySelector(".Ghost");
+
+    button.addEventListener("click", (el) => {
+        target.classList.toggle("active");
+    })
+</script>
+<script>
+    const button2 = document.querySelector(".Word2");
+    const target2 = document.querySelector(".Narrative");
+
+    button2.addEventListener("click", (el) => {
+        target2.classList.toggle("active");
+    })
+</script>

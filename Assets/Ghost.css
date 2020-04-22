@@ -230,7 +230,6 @@ body{
 }
 .img2{
     position: absolute;
-    background-color: black;
     height: 18vw;
     width: 18vw;
     top: 8vw;
@@ -256,7 +255,6 @@ body{
 }
 .img3{
     position: absolute;
-    background-color: black;
     height: 19vw;
     width: 19vw;
     top: 29vw;
@@ -282,7 +280,6 @@ body{
 }
 .img4{
     position: absolute;
-    background-color: black;
     height: 14vw;
     width: 14vw;
     top: 29vw;
@@ -356,6 +353,15 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover1-1;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes hover1-1{
+    from{left: 29vw; top: 8vw}
+    to{left: 29vw; top: 8vw}
 }
 .blk1:hover ~.img1 .G1 img{
     opacity: 1 !important;
@@ -367,6 +373,15 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover1-2;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes hover1-2{
+    from{left: 51vw; top: 8vw}
+    to{left: 51vw; top: 8vw}
 }
 .blk1:hover ~.img2 .G1 img{
     opacity: 1 !important;
@@ -378,6 +393,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover1-3;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover1-3{
+    from{left: 29vw; top: 30vw}
+    to{left: 29vw; top: 30vw}
 }
 .blk1:hover ~.img3 .G1 img{
     opacity: 1 !important;
@@ -389,6 +412,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover1-4;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover1-4{
+    from{left: 51vw; top: 30vw}
+    to{left: 51vw; top: 30vw}
 }
 .blk1:hover ~.img4 .G1 img{
     opacity: 1 !important;
@@ -403,6 +434,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover2-1;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover2-1{
+    from{left: 29vw; top: 8vw}
+    to{left: 29vw; top: 8vw}
 }
 .blk2:hover ~.img1 .G2 img{
     opacity: 1 !important;
@@ -414,6 +453,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover2-2;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover2-2{
+    from{left: 51vw; top: 8vw}
+    to{left: 51vw; top: 8vw}
 }
 .blk2:hover ~.img2 .G2 img{
     opacity: 1 !important;
@@ -425,6 +472,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover2-3;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover2-3{
+    from{left: 29vw; top: 30vw}
+    to{left: 29vw; top: 30vw}
 }
 .blk2:hover ~.img3 .G2 img{
     opacity: 1 !important;
@@ -436,6 +491,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover2-4;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover2-4{
+    from{left: 51vw; top: 30vw}
+    to{left: 51vw; top: 30vw}
 }
 .blk2:hover ~.img4 .G2 img{
     opacity: 1 !important;
@@ -450,6 +513,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover3-1;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover3-1{
+    from{left: 29vw; top: 8vw}
+    to{left: 29vw; top: 8vw}
 }
 .blk3:hover ~.img1 .G3 img{
     opacity: 1 !important;
@@ -461,6 +532,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover3-2;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover3-2{
+    from{left: 51vw; top: 8vw}
+    to{left: 51vw; top: 8vw}
 }
 .blk3:hover ~.img2 .G3 img{
     opacity: 1 !important;
@@ -472,6 +551,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover3-3;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover3-3{
+    from{left: 29vw; top: 30vw}
+    to{left: 29vw; top: 30vw}
 }
 .blk3:hover ~.img3 .G3 img{
     opacity: 1 !important;
@@ -483,6 +570,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover3-4;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover3-4{
+    from{left: 51vw; top: 30vw}
+    to{left: 51vw; top: 30vw}
 }
 .blk3:hover ~.img4 .G3 img{
     opacity: 1 !important;
@@ -497,6 +592,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover4-1;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover4-1{
+    from{left: 29vw; top: 8vw}
+    to{left: 29vw; top: 8vw}
 }
 .blk4:hover ~.img1 .G4 img{
     opacity: 1 !important;
@@ -508,6 +611,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover4-2;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover4-2{
+    from{left: 51vw; top: 8vw}
+    to{left: 51vw; top: 8vw}
 }
 .blk4:hover ~.img2 .G4 img{
     opacity: 1 !important;
@@ -519,6 +630,14 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover4-3;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover4-3{
+    from{left: 29vw; top: 30vw}
+    to{left: 29vw; top: 30vw}
 }
 .blk4:hover ~.img3 .G4 img{
     opacity: 1 !important;
@@ -530,9 +649,18 @@ body{
     width: 20vw;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
+    animation-name: hover4-4;
+    animation-duration: 0.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hover4-4{
+    from{left: 51vw; top: 30vw}
+    to{left: 51vw; top: 30vw}
 }
 .blk4:hover ~.img4 .G4 img{
     opacity: 1 !important;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
+/*It finally ends here! Woooohoooooooooo!!!*/

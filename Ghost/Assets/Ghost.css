@@ -1,5 +1,5 @@
 body{
-    background-image: url(D:/Ghost/Assets/Images/BackScreen1.jpg);
+    background-image: url(Assets/Images/BackScreen1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -217,7 +217,7 @@ body{
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    background-image: url(D:/Ghost/Assets/Images/Ghost1.jpg);
+    background-image: url(Assets/Images/Ghost1.jpg);
     background-attachment: local;
     background-size: contain;
     background-position: center center;
@@ -243,7 +243,7 @@ body{
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    background-image: url(D:/Ghost/Assets/Images/Ghost2.jpg);
+    background-image: url(Assets/Images/Ghost2.jpg);
     background-attachment: local;
     background-size: contain;
     background-position: center center;
@@ -269,7 +269,7 @@ body{
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-    background-image: url(D:/Ghost/Assets/Images/Ghost3.jpg);
+    background-image: url(Assets/Images/Ghost3.jpg);
     background-attachment: local;
     background-size: contain;
     background-position: center center;
@@ -288,7 +288,7 @@ body{
     top: 29vw;
     left: 51vw;
     transition-duration: 0.5s;
-    background-image: url(D:/Ghost/Assets/Images/Ghost4.jpg);
+    background-image: url(Assets/Images/Ghost4.jpg);
     background-attachment: local;
     background-size: contain;
     background-position: center center;
